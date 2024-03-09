@@ -1,0 +1,17 @@
+.myBtn {
+  padding: 4px 15px;
+  color: #fff;
+  font-size: 20px;
+  max-height: 50px;
+  background-color: transparent;
+  border: 1px solid rgb(19, 198, 198);
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 5px;
+  &:hover {
+    background-color: rgb(19, 198, 198);
+  }
+  &:active {
+    background-color: #55f0c4;
+  }
+}

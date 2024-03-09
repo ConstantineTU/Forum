@@ -1,0 +1,30 @@
+.posting {
+  &__title {
+    text-align: center;
+    font-size: 36px;
+    margin: 15px 0px 50px 0px;
+    font-weight: bold;
+  }
+  &__text {
+    font-size: 24px;
+    margin: 0px 0px 100px 0px;
+    text-align: left;
+  }
+}
+.comments {
+  &__title {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  &__comment {
+    &-title {
+      font-size: 19px;
+      font-weight: bold;
+      text-align: left;
+    }
+    &-text {
+      margin: 0px 0px 20px 0px;
+      text-align: left;
+    }
+  }
+}
